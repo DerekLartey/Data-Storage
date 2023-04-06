@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: hsl(229, 57%, 11%);
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+.background_img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+}
+
+.mainone{
+    position: relative;
+    top: 280px;
+    left: 20%;
+    height: 200px;
+    width: 24%;
+    background-color: hsl(228, 56%, 26%);
+    z-index: 1;
+    border-radius: 10px 100px 10px 10px;
+}
+
+.maintwo{
+    position: relative;
+    top: 42px;
+    left: 46%;
+    background-color: hsl(228, 56%, 26%);
+    height: 160px;
+    width: 37%;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.logo{
+    margin: 40px 40px 30px 40px;
+}
+
+.icons{
+    margin-left: 40px;
+}
+
+.docicon{
+    border: 12px solid hsl(229, 57%, 11%);
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 8px;
+    height: 23px;
+    width: 7%;
+    margin-right: 15px;
+}
+
+.foldicon{
+    border: 13px solid hsl(229, 57%, 11%);
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 8px;
+    height: 20px;
+    margin-right: 15px;
+    width: 7%;
+}
+
+.upicon{
+    border: 14px solid hsl(229, 57%, 11%);
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 8px;
+    height: 18px;
+    width: 7%;
+    margin-right: 15px;
+}
+
+.para{
+    padding: 40px 40px 20px 40px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.bar{
+    background-color: hsl(229, 57%, 11%);
+    padding: 2px;
+    height: 15px;
+    width: 85%;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+.guage{
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    height: 15px;
+    width: 75%;
+    border-radius: 20px;
+}
+
+.ball{
+    background-color: #fff;
+    height: 11px;
+    width: 11px;
+    float: right;
+    margin: 2px 2px 2px 2px;
+    border-radius: 20px;
+}
+
+.storage{
+    color: #fff;
+    margin: 10px 40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.gb{
+    float: right;
+    margin-right: 15px;
+}
+
+.textbox{
+    position: relative;
+    left: 65%;
+    top: 65px;
+    height: 80px;
+    width: 14%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0;
+    z-index: 3;
+}
+
+.boxedge{
+    background: transparent;
+    border-left: 20px solid #fff;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-top: 25px solid transparent;
+    float: right;
+    margin-top: 0;
+    transform: rotate(180deg);
+}
+
+.text{
+    font-size: 40px;
+    padding: 12px 10px 0 14px;
+}
+
+.left{
+    position: relative;
+    bottom: 8px;
+    left: 5px;
+    font-size: 14px;
+    color: hsl(229, 7%, 55%);
+    font-weight: 700;
+}
+
+.strongone{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1180px) {
+
+    .mainone{
+        position: relative;
+        top: 280px;
+        left: 20%;
+        height: 200px;
+        width: 24%;
+        background-color: hsl(228, 56%, 26%);
+        z-index: 1;
+        border-radius: 10px 100px 10px 10px;
+    }
+
+    .maintwo{
+        position: relative;
+        top: 60px;
+        left: 46%;
+        background-color: hsl(228, 56%, 26%);
+        height: 160px;
+        width: 37%;
+        z-index: 2;
+        border-radius: 10px;
+    }
+
+    .textbox{
+        position: relative;
+        left: 65%;
+        top: 80px;
+        height: 60px;
+        width: 14%;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 0;
+        z-index: 3;
+    }
+
+    .para{
+        padding: 40px 40px 20px 40px;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .text{
+        font-size: 30px;
+        padding: 8px 10px 0 14px;
+    }
+
+    .boxedge{
+        background: transparent;
+        border-left: 15px solid #fff;
+        border-right: 20px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-top: 25px solid transparent;
+        float: right;
+        margin-top: 0;
+        transform: rotate(180deg);
+    }
+}
+
+@media screen and (max-width: 990px) {
+    span.left{
+        font-size: 12px;
+        position: relative;
+        top: .3px;
+    }
+
+    strong{
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 870px){
+    .bar{
+        background-color: hsl(229, 57%, 11%);
+        padding: 2px;
+        height: 15px;
+        width: 85%;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+
+    .para{
+        padding: 40px 40px 20px 20px;
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .storage{
+        color: #fff;
+        margin: 10px 20px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+
+    .icons{
+        margin-left: 20px;
+    }
+
+    .logo{
+        margin: 40px 40px 30px 20px;
+    }
+
+    strong{
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+    }
+
+    span.left{
+        font-size: 10px;
+        position: relative;
+        top: .3px;
+        left: -2px;
+    }
+}
+
+@media screen and (max-width: 778px){
+    body{
+        background-image: url(bg-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        font-family: 'Raleway', sans-serif;
+        height: 100vh;
+    }
+
+    .background_img{
+        height: 1px;
+        width: 1px;
+    }
+
+    .mainone{
+        position: relative;
+        top: 150px;
+        left: 20%;
+        height: 200px;
+        width: 60%;
+        background-color: hsl(228, 56%, 26%);
+        z-index: 1;
+        border-radius: 10px 100px 10px 10px;
+    }
+
+    .maintwo{
+        position: relative;
+        top: 110px;
+        width: 60%;
+        left: 20%;
+        background-color: hsl(228, 56%, 26%);
+        height: 180px;
+        z-index: 2;
+        border-radius: 10px;
+    }
+
+    .strongtwo{
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+    }
+
+    .logo{
+        margin: 40px 40px 30px 50px;
+    }
+
+    .icons{
+        margin-left: 50px;
+    }
+
+    .textbox{
+        position: relative;
+        left: 35%;
+        top: 320px;
+        height: 60px;
+        width: 30%;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 0;
+        z-index: 3;
+    }
+
+    .para{
+        margin: 0 auto;
+        margin-bottom: 0;
+        color: #fff;
+        font-size: 10px;
+        width: 70%;
+        text-align: center;
+    }
+
+    .boxedge{
+        background: transparent;
+        border-left: 15px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-top: 25px solid transparent;
+        float: right;
+        margin-top: 0;
+        transform: rotate(180deg);
+    }
+
+    .text{
+        font-size: 25px;
+        padding: 15px auto;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    span.left{
+        font-size: 8px;
+        position: relative;
+        top: .3px;
+        left: -2px;
+    }
+
+    .storage{
+        color: #fff;
+        margin: 10px 20px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .textbox{
+        position: relative;
+        left: 35%;
+        top: 320px;
+        height: 60px;
+        width: 25%;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 0;
+        z-index: 3;
+    }
+
+    .strongone{
+        font-size: 12px;
+    }
+
+    .text{
+        font-size: 25px;
+        padding: 15px auto;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .icons{
+        margin-left: 30px;
+    }
+
+    .logo{
+        margin: 40px 40px 30px 30px;
+        width: 120px;
+    }
+
+    .docicon{
+        border: 12px solid hsl(229, 57%, 11%);
+        background-color: hsl(229, 57%, 11%);
+        border-radius: 8px;
+        height: 23px;
+        width: 7%;
+        margin-right: 10px;
+    }
+    
+    .foldicon{
+        border: 13px solid hsl(229, 57%, 11%);
+        background-color: hsl(229, 57%, 11%);
+        border-radius: 8px;
+        height: 20px;
+        margin-right: 10px;
+        width: 7%;
+    }
+    
+    .upicon{
+        border: 14px solid hsl(229, 57%, 11%);
+        background-color: hsl(229, 57%, 11%);
+        border-radius: 8px;
+        height: 18px;
+        width: 7%;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .strongtwo{
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+    }
+
+    .text{
+        font-size: 25px;
+        padding: 5px auto;
+        margin: 0 auto;
+        width: 70%;
+    }
+}
